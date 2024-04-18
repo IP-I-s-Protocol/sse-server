@@ -10,7 +10,7 @@ env:
   ECR_REGISTRY: 905418308591.dkr.ecr.ap-northeast-2.amazonaws.com # 레포 url
   ECR_REPOSITORY: sse-ecr # 레포 이름
   IMAGE_TAG: 0.2.0
-  ECS_TASK_DEFINITION: tang-sse-task-family-revision1
+  ECS_TASK_DEFINITION: tang-sse-task-family-revision1.json
   CONTAINER_NAME: tang-sse-container
   ECS_SERVICE: tang_sse_service_app
   ECS_CLUSTER: tang-cluster
