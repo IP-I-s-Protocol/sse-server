@@ -1,6 +1,7 @@
 package com.six.sse_server.config;
 
 import java.util.Arrays;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,18 +11,12 @@ import org.springframework.web.filter.CorsFilter;
 
 @Configuration
 public class WebSecurityConfig {
-
-    @Value("${spring.main.url}")
-    private String mainUrl;
-    @Value("${spring.sse.url}")
-    private String sseUrl;
-    @Value("${spring.front.url}")
-    private String frontUrl;
-
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(Arrays.asList(mainUrl,frontUrl, sseUrl));
+        configuration.setAllowedOrigins(
+            List.of("http://tang-alb-1289213228.ap-northeast-2.elb.amazonaws.com:8080")
+        );
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("authorization", "content-type", "x-auth-token"));
         configuration.setAllowCredentials(true);
