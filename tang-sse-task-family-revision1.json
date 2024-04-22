@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:905418308591:task-definition/tang-sse-task-family:1",
+    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:905418308591:task-definition/tang-sse-task-family:15",
     "containerDefinitions": [
         {
             "name": "tang-sse-container",
-            "image": "905418308591.dkr.ecr.ap-northeast-2.amazonaws.com/sse-ecr",
+            "image": "905418308591.dkr.ecr.ap-northeast-2.amazonaws.com/sse-ecr:0.2.0",
             "cpu": 0,
             "portMappings": [
                 {
@@ -16,10 +16,8 @@
             ],
             "essential": true,
             "environment": [],
-            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
-            "ulimits": [],
             "systemControls": []
         }
     ],
@@ -27,21 +25,12 @@
     "taskRoleArn": "arn:aws:iam::905418308591:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::905418308591:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 15,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
         {
-            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
-        },
-        {
-            "name": "ecs.capability.execution-role-awslogs"
-        },
-        {
             "name": "com.amazonaws.ecs.capability.ecr-auth"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
         },
         {
             "name": "com.amazonaws.ecs.capability.task-iam-role"
@@ -54,11 +43,7 @@
         },
         {
             "name": "ecs.capability.task-eni"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
         }
-
     ],
     "placementConstraints": [],
     "compatibilities": [
@@ -74,7 +59,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-04-18T03:41:05.219Z",
-    "registeredBy": "arn:aws:iam::905418308591:root",
+    "registeredAt": "2024-04-22T06:37:39.742Z",
+    "registeredBy": "arn:aws:iam::905418308591:user/kelly2",
     "tags": []
 }
