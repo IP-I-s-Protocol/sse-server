@@ -11,11 +11,15 @@ import org.springframework.web.filter.CorsFilter;
 
 @Configuration
 public class WebSecurityConfig {
+
+    @Value("${spring.main.url}")
+    private String url;
+
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(
-            List.of("http://tang-alb-1289213228.ap-northeast-2.elb.amazonaws.com:8080")
+            List.of(url)
         );
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("authorization", "content-type", "x-auth-token"));
