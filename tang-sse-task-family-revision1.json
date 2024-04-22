@@ -8,8 +8,8 @@
             "portMappings": [
                 {
                     "name": "tang-sse-container-8080-tcp",
-                    "containerPort": 8080,
-                    "hostPort": 8080,
+                    "containerPort": 8081,
+                    "hostPort": 8081,
                     "protocol": "tcp",
                     "appProtocol": "http"
                 }
