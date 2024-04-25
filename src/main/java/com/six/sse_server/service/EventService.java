@@ -18,6 +18,7 @@ public class EventService {
 
     public void subscribeAuctionEvent(String auctionId, SseEmitter emitter) {
         ChannelTopic topic = new ChannelTopic(EVENT_TOPIC + auctionId);
+
         MessageListener listener = (message, pattern) -> {
             try {
                 String messageBody = new String(message.getBody());
