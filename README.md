@@ -36,8 +36,6 @@
 <img width="950" alt="팀플 아키텍처 - 거의 최종" src="https://github.com/IP-I-s-Protocol/DDang/assets/151606621/06daf0f6-163a-44f3-8c9c-58e0933782b3">
 
 ---
-## 🍀 ERD
-<img width="950" alt="image (5)" src="https://github.com/IP-I-s-Protocol/DDang/assets/151606621/6d99c9aa-e501-451c-b691-0cf8b3781d80">
 
 
 
