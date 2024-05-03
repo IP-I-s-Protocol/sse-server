@@ -33,7 +33,7 @@
 ---
 ## 🏛️ 기술 아키텍쳐
 
-<img width="950" alt="팀플 아키텍처 _최종" src="https://github.com/IP-I-s-Protocol/DDang/assets/151606621/d8d7d367-cc40-4f02-94f5-d69f82e53089">
+<img width="950" alt="팀플 아키텍처 - 최최종" src="https://github.com/IP-I-s-Protocol/SSE_server/assets/151606621/02927006-3922-41a8-a101-f8f14f4a3f92">
 
 ---
 
