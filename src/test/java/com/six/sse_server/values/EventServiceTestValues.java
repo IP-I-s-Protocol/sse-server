@@ -9,6 +9,7 @@ public interface EventServiceTestValues {
     String TEST_AUCTION1_ID = "1";
 
     SseEmitter TEST_AUCTION1_EMITTER = new SseEmitter();
+    SseEmitter TEST_TIMEOUT_EMITTER = new SseEmitter(5*60*1000L);
 
 
 }

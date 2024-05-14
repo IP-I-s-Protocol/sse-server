@@ -54,7 +54,7 @@ class EventServiceTest implements EventServiceTestValues {
         @Test
         void 옥션_이벤트_구독_실패_테스트() throws IOException {
             //given
-            ChannelTopic topic = new ChannelTopic("auction-price:" + TEST_AUCTION1_ID);
+            ChannelTopic topic = new ChannelTopic(EVENT_TOPIC + TEST_AUCTION1_ID);
 
             doThrow(IOException.class).when(sseEmitter).send(anyString());
             //when
