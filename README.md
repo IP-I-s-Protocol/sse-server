@@ -17,23 +17,22 @@
 <br/>
 
 ```CICD```
-
-<img src="https://img.shields.io/badge/github Actions-2088FF?style=for-the-badge&logo=GitHubActions&logoColor=white">
-<img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-<img src="https://img.shields.io/badge/amazon ECR-FF8000?style=for-the-badge&logo=amazon&logoColor=white">
-<img src="https://img.shields.io/badge/amazon ecs-FF9900?style=for-the-badge&logo=amazonecs&logoColor=white">
+> <img src="https://img.shields.io/badge/github Actions-2088FF?style=for-the-badge&logo=GitHubActions&logoColor=white">
+> <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+> <img src="https://img.shields.io/badge/amazon ECR-FF8000?style=for-the-badge&logo=amazon&logoColor=white">
+> <img src="https://img.shields.io/badge/amazon ecs-FF9900?style=for-the-badge&logo=amazonecs&logoColor=white">
 <br/>
 
-```DB```
+```DataBase```
 
-<img src="https://img.shields.io/badge/amazon s3-569A31?style=for-the-badge&logo=amazons3&logoColor=white">
-<img src="https://img.shields.io/badge/amazon elasticache-C925D1?style=for-the-badge&logo=amazon&logoColor=white">
-<img src="https://img.shields.io/badge/amazon Aurora DB-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white">
+> <img src="https://img.shields.io/badge/amazon s3-569A31?style=for-the-badge&logo=amazons3&logoColor=white">
+> <img src="https://img.shields.io/badge/amazon elasticache-C925D1?style=for-the-badge&logo=amazon&logoColor=white">
+> <img src="https://img.shields.io/badge/amazon Aurora DB-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white">
 
 ---
 ## 🏛️ 기술 아키텍쳐
 
-<img width="950" alt="팀플 아키텍처 - 최최종" src="https://github.com/IP-I-s-Protocol/SSE_server/assets/151606621/02927006-3922-41a8-a101-f8f14f4a3f92">
+<img width="950" alt="팀플 아키텍처 - 최최최종! drawio" src="https://github.com/IP-I-s-Protocol/SSE_server/assets/151606621/16345a02-7e0d-4cd7-80c2-93c9a6835158">
 
 ---
 
